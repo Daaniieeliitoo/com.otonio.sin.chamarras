@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.otonio.sin.chamarras" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icons"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:windowSoftInputMode="adjustPan|stateVisible"
+            android:name="com.otonio.sin.chamarras.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name="com.otonio.sin.chamarras.LoginActivity" android:theme="@style/AppTheme.Dark" />-->
+        <activity android:windowSoftInputMode="adjustPan|stateVisible" android:name="com.otonio.sin.chamarras.SignupActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.otonio.sin.chamarras.HomeActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.otonio.sin.chamarras.VideomainActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:windowSoftInputMode="adjustPan|stateVisible" android:name="com.otonio.sin.chamarras.HomemainActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.otonio.sin.chamarras.Ads2Activity" android:theme="@style/AppTheme.Dark" />
+    </application>
+
+</manifest>

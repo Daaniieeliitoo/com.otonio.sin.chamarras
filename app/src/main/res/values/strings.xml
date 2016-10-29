@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Otoño sin Chamarras</string>
+
+    <string name="email_login">Email</string>
+    <string name="password_login">Contraseña</string>
+    <string name="login_login">Entrar</string>
+    <string name="register_login">¿Aún no tienes una cuenta? Crear una es muy sencillo. <u>Da click aquí</u>.</string>
+
+    <string name="name_signup">Nombre de usuario</string>
+    <string name="email_signup">Email</string>
+    <string name="password_signup">Contraseña</string>
+    <string name="signup_signup">Crear cuenta</string>
+    <string name="member_signup">¿Ya tienes cuenta? <u>Inicia sesión</u></string>
+
+    <string name="ads_continue">Continuar</string>
+    <string name="ads_knyou">Ver app</string>
+
+    <string name="home_start">¡Comienza el reto ya!</string>
+    <string name="home_start_again">¡Comienza el reto otra vez! No te dejes vencer</string>
+    <string name="home_end">¿No pudiste más? Termina el reto</string>
+    <string name="home_days_count">Llevas X días con el reto</string>
+    <string name="home_days_finished">Duraste X días con el reto. Inicialo otra vez</string>
+</resources>
